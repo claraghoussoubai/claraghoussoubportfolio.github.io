@@ -61,12 +61,6 @@
             padding-bottom: 8px;
             margin-bottom: 16px;
         }
-        .projects {
-            background-color: #fff;
-            padding: 24px;
-            border-radius: 8px;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-        }
         .skills-list {
             display: flex;
             flex-wrap: wrap;
@@ -78,6 +72,28 @@
             padding: 6px 14px;
             border-radius: 20px;
             font-size: 0.9em;
+        }
+        .project {
+            background-color: #fff;
+            padding: 24px;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        .project h3 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        .project p {
+            margin-bottom: 8px;
+        }
+        .project a {
+            color: #2c3e50;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .project a:hover {
+            text-decoration: underline;
         }
         footer {
             text-align: center;
@@ -116,9 +132,17 @@
             </div>
         </section>
 
-        <section class="projects">
+        <section>
             <h2>Projects</h2>
-            <p>Project showcases coming soon — including computer vision, NLP, and a graduation capstone project.</p>
+            <div class="project">
+                <h3>Thrive — AI Wellness & Finance App</h3>
+                <p>A mobile app that unifies lifestyle, wellness, habit tracking, and personal finance into one platform. Generates a personalized daily readiness score from inputs like sleep, mood, stress, energy, and workouts, with AI-driven recommendations and an integrated finance tracker.</p>
+                <p><strong>Tech:</strong> Flutter, Dart, Firebase, Python (AI backend), Flutter CustomPaint</p>
+                <p><a href="https://github.com/claraghoussoubai/THRIVE" target="_blank">View on GitHub</a></p>
+            </div>
+            <div class="project">
+                <p>More projects coming soon — Computer Vision and NLP work in progress.</p>
+            </div>
         </section>
     </main>
 
